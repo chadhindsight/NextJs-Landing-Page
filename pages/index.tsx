@@ -3,6 +3,9 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import { Button, Col, Container, Grid, Navbar, Text } from '@nextui-org/react'
+import { InfoCard } from '../components/InfoCard';
+import { use, useState } from 'react'
+import InfoCards from '../components/InfoCards'
 
 export default function Home() {
   return (
@@ -45,6 +48,9 @@ export default function Home() {
         </Grid>
       </Grid.Container>
       {/* 3 product display cards */}
+      {
+        <InfoCards />
+      }
     </Container>
   )
 }
