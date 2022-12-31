@@ -10,7 +10,7 @@ export default function Home() {
       {/* Navbar */}
       <Navbar isCompact variant={"static"}>
         <Navbar.Brand>
-          <Text b color="inherit">Travel the world through us</Text>
+          <Text b color="inherit">Travelfy</Text>
         </Navbar.Brand>
         <Navbar.Content hideIn="md">
           <Navbar.Link href='#'>Book your trip today</Navbar.Link>
