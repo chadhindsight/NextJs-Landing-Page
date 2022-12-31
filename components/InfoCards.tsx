@@ -7,17 +7,20 @@ const InfoCards = () => {
         {
             location: 'Milan',
             cost: 4500,
-            imageUrl: "https://littlevisuals.co/images/a_mile.jpg"
+            imageUrl: "https://littlevisuals.co/images/a_mile.jpg",
+            rating: 4.7
         },
         {
             location: 'Tokyo',
             cost: 3500,
-            imageUrl: "https://littlevisuals.co/images/a_mile.jpg"
+            imageUrl: "https://littlevisuals.co/images/a_mile.jpg",
+            rating: 5
         },
         {
             location: 'London',
             cost: 6500,
-            imageUrl: "https://littlevisuals.co/images/a_mile.jpg"
+            imageUrl: "https://littlevisuals.co/images/a_mile.jpg",
+            rating: 4
         }
     ])
 
