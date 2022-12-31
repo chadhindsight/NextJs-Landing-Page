@@ -38,6 +38,17 @@ export const InfoCard: NextPage<Props> = (props) => {
                             {`$ ${cost}`}
                         </Text>
                     </Col>
+                    <Col>
+                        <Row justify="flex-end">
+                            <Button flat auto rounded color="primary">
+                                <Text
+                                    css={{ color: "inherit" }}
+                                    size={12}
+                                    weight="bold"
+                                    transform="uppercase">Book Today</Text>
+                            </Button>
+                        </Row>
+                    </Col>
                 </Row>
             </Card.Footer>
         </Card>
