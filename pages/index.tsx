@@ -47,10 +47,11 @@ export default function Home() {
           </Col>
         </Grid>
       </Grid.Container>
-      {/* 3 product display cards */}
       {
+        /* 3 product display cards */
         <InfoCards />
       }
+      {/* TODO: Add footer component */}
     </Container>
   )
 }
