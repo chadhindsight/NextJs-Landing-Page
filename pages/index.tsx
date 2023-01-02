@@ -7,9 +7,9 @@ import InfoCards from '../components/InfoCards'
 
 export default function Home() {
   return (
-    <Container>
+    <>
       {/* Navbar */}
-      <Navbar isCompact variant={"static"}>
+      <Navbar isCompact variant={"static"} maxWidth="xl">
         <Navbar.Brand>
           <Text b color="inherit">Travelify</Text>
         </Navbar.Brand>
@@ -50,6 +50,6 @@ export default function Home() {
         <InfoCards />
       }
       {/* TODO: Add footer component */}
-    </Container>
+    </>
   )
 }
