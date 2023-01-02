@@ -13,13 +13,13 @@ const InfoCards = () => {
         {
             location: 'Tokyo',
             cost: 3500,
-            imageUrl: "https://littlevisuals.co/images/a_mile.jpg",
+            imageUrl: "https://littlevisuals.co/images/canal.jpg",
             rating: 5
         },
         {
             location: 'London',
             cost: 6500,
-            imageUrl: "https://littlevisuals.co/images/hard_wood_river.jpg",
+            imageUrl: "https://littlevisuals.co/images/building.jpg",
             rating: 4
         }
     ])
