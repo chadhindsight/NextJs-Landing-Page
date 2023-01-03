@@ -18,7 +18,7 @@ const InfoCards = () => {
         },
         {
             location: 'London',
-            cost: 6500,
+            cost: 5500,
             imageUrl: "https://littlevisuals.co/images/building.jpg",
             rating: 4
         }
