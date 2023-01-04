@@ -25,13 +25,13 @@ const InfoCards = () => {
     ])
 
     return (
-        <div>
+        <>
             {
                 destinationsInfo.map((destination, i) => {
                     return <InfoCard {...destination} key={i} />
                 })
             }
-        </div>
+        </>
     );
 };
 
