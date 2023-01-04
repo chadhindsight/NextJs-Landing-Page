@@ -1,7 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
 import { Button, Col, Container, Grid, Navbar, Text } from '@nextui-org/react'
 import InfoCards from '../components/InfoCards'
 
@@ -50,6 +46,11 @@ export default function Home() {
         <InfoCards />
       }
       {/* TODO: Add footer component */}
+      <footer>
+        <Container>
+
+        </Container>
+      </footer>
     </>
   )
 }
