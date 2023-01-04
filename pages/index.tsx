@@ -1,4 +1,4 @@
-import { Button, Col, Container, Grid, Navbar, Text } from '@nextui-org/react'
+import { Button, Col, Container, Grid, Navbar, Text, Link } from '@nextui-org/react'
 import InfoCards from '../components/InfoCards'
 
 export default function Home() {
@@ -47,9 +47,17 @@ export default function Home() {
       }
       {/* TODO: Add footer component */}
       <footer>
-        <Container>
-
-        </Container>
+        <Grid.Container justify="flex-start">
+          <Link href="#">
+            <Text className='foot-text'>Link Here</Text>
+          </Link>
+          <Link href="#">
+            <Text className='foot-text'>Link Here</Text>
+          </Link>
+          <Link href="#">
+            <Text className='foot-text'>Link Here</Text>
+          </Link>
+        </Grid.Container>
       </footer>
     </>
   )
