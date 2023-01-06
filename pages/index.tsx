@@ -45,18 +45,23 @@ export default function Home() {
         /* 3 product display cards */
         <InfoCards />
       }
-      {/* TODO: Add footer component */}
+      {/* TODO: Add footer component*/}
       <footer>
-        <Grid.Container justify="flex-start">
-          <Link href="#">
-            <Text className='foot-text'>Link Here</Text>
-          </Link>
-          <Link href="#">
-            <Text className='foot-text'>Link Here</Text>
-          </Link>
-          <Link href="#">
-            <Text className='foot-text'>Link Here</Text>
-          </Link>
+        <Grid.Container justify="center">
+          <Grid xs={12} sm={6} lg={3} alignItems="center">
+            <ul>
+              <li>
+                <Link href="#">
+                  <Text className='footer-text'>Link Here</Text>
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <Text className='footer-text'>Link Here</Text>
+                </Link>
+              </li>
+            </ul>
+          </Grid>
         </Grid.Container>
       </footer>
     </>
