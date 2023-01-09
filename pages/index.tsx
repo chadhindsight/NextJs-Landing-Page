@@ -46,7 +46,7 @@ export default function Home() {
         <InfoCards />
       }
       {/* TODO: Add footer component*/}
-      <footer>
+      <section>
         <Grid.Container justify="center">
           <Grid xs={12} sm={6} lg={3} alignItems="center">
             <ul>
@@ -63,7 +63,7 @@ export default function Home() {
             </ul>
           </Grid>
         </Grid.Container>
-      </footer>
+      </section>
     </>
   )
 }
