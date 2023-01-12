@@ -52,12 +52,12 @@ export default function Home() {
             <ul>
               <li>
                 <Link href="#">
-                  <Text className='footer-text'>Link Here</Text>
+                  <Text>Link Here</Text>
                 </Link>
               </li>
               <li>
                 <Link href="#">
-                  <Text className='footer-text'>Link Here</Text>
+                  <Text>Link Here</Text>
                 </Link>
               </li>
             </ul>
