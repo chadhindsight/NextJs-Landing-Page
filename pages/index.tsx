@@ -45,7 +45,7 @@ export default function Home() {
         /* 3 product display cards */
         <InfoCards />
       }
-
+      {/* TODO: Add footer component*/}
       <footer>
         <Grid.Container justify="center">
           <Grid xs={12} sm={6} lg={3} alignItems="center">
