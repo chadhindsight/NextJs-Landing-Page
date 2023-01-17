@@ -57,7 +57,7 @@ export default function Home() {
               </li>
               <li>
                 <Link href="#">
-                  <Text>Link Here</Text>
+                  <Text>Another Link Here</Text>
                 </Link>
               </li>
             </ul>
