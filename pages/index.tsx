@@ -42,7 +42,7 @@ export default function Home() {
         </Grid>
       </Grid.Container>
       {
-        /* 3 product display cards */
+        /* 3 product display cards to be shown*/
         <InfoCards />
       }
       {/* TODO: Add footer component*/}
