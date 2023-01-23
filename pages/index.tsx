@@ -52,7 +52,7 @@ export default function Home() {
             <ul>
               <li>
                 <Link href="#">
-                  <Text>Link Will be here Here</Text>
+                  <Text>Link Will be here Here bro</Text>
                 </Link>
               </li>
               <li>
